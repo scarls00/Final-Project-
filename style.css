@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+
+.purple {
+    color: purple !important;
+}   
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}   
+/* Navigation Bar */
+
+.nav {
+    height: 100%;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 48px;
+    font-weight: bold;
+    color: purple;
+    text-decoration: none;
+}
+
+.nav__logo img {
+    width: 200px;
+    height: auto;
+}
+
+.nav__row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav__link--anchor {
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav__link--anchor:hover {
+    cursor: pointer;
+    color: purple;
+    background-color: #f0e6ff;
+}
+.nav__link--button {
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 2px solid purple;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+
+/*About Section*/
