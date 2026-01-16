@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
     padding: 20px;
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .row {
@@ -85,6 +85,13 @@ main {
     align-items: center;
 }
 
+.row.nav__row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .nav__links {
     display: flex;
     list-style: none;
@@ -103,10 +110,12 @@ main {
     background-color: #f0e6ff;
 }
 .nav__link--button {
+    background-color: purple;
+    color: white;
     font-size: 20px;
-    padding: 10px 15px;
-    border: 2px solid purple;
-    border-radius: 5px;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 9999px;
     transition: all 0.3s ease;
 }
 
@@ -119,14 +128,22 @@ main {
     justify-content: space-between;
     margin-top: 40px;
     padding: 20px;
+    width: 40%;
 }
 
 .row--about {
     border: 10px solid purple;
-    font-size: 265%;;
+    width: 40%;
+    font-size: 10px;
 }
 
 .about__img {
     border: 10px solid purple;
-    font-size: 30%;
+    width: 60%;
+    font-size: 10px;
+}
+
+.about__img img {
+    width: 100%;
+    height: auto;
 }
