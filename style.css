@@ -169,16 +169,10 @@ main {
 
 /* Quality */
 
-.container__quality {
+.row--quality {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 32px;
-    justify-content: space-between;
-    margin-top: 40px;
-    padding: 80px;
-    max-width: 1000px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: space-between;
+    width: 100%/3;
 }
-
