@@ -187,7 +187,7 @@ Can't make it look right even copying :( */
 }
 
 .header__email--input:hover {
-    border-color: ##cbd5e0;
+    border-color: #cbd5e0;
 }
 
 .header__email--input:focus {
@@ -335,12 +335,6 @@ Can't make it look right even copying :( */
     width: 50%;
     font-size: 18px;
     line-height: 1.4;
-    display: flex;
-    flex-direction: column;
-}
-
-.row--steps h4 {
-    margin-bottom: 8px;
 }
 
 .row__steps row {
