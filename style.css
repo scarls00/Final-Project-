@@ -383,14 +383,14 @@ Can't make it look right even copying :( */
     height: auto;
 }
 
-.professionals__anchor {
+.professionals__anchor:not(.professionals__button) {
     font-size: 20px;
     padding: 10px 15px;
     border-radius: 5px;
     transition: all 0.3s ease;
 }
 
-.professionals__anchor:hover {
+.professionals__anchor:hover:not(.professionals__button) {
     cursor: pointer;
     color: #6415ff;
     background-color: #f0e6ff;
@@ -399,13 +399,20 @@ Can't make it look right even copying :( */
     background-color: #6415ff;
     color: white;
     font-size: 14px;
-    padding: 10px 24px;
+    padding: 12px 32px;
     border: none;
-    border-radius: 9999px;
+    border-radius: 500px;
     transition: all 0.3s ease;
     line-height: 1;
-    margin-top: 24px;
+    margin-top: 32px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
     }
+.professionals__button:hover {
+    background-color: #5011cc;
+    color: #fff;
+}
 
 /* Steps */
 .container__steps {
@@ -439,20 +446,50 @@ Can't make it look right even copying :( */
     height: auto;
 }
 
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.steps__list {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+.step {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
 .step__title {
-    font-size: 26px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #243e63;
+    line-height: 1;
+    margin-bottom: 4px;
 }
 
 .step__number {
-    font-size: 26px;
-    font-weight: bold;
-    color: #6415ff;
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
     margin-right: 20px;
 }
 
 .step__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    max-width: 320px;
     font-size: 18px;
     line-height: 1.4;
+}
+
+.steps__para {
+    font-size: 14px;
+    color: #718096;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
 }
