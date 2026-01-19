@@ -493,3 +493,64 @@ Can't make it look right even copying :( */
     font-weight: 500;
     line-height: 2;
 }
+
+/* Values */
+.container__values {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 40px;
+    border: 40px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.row--values {
+    width: 50%;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.values__img {
+    width: 50%;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.values__img img {
+    width: 100%;
+    height: auto;
+}
+
+.values__anchor:not(.values__button) {
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.values__anchor:hover:not(.values__button) {
+    cursor: pointer;
+    color: #6415ff;
+    background-color: #f0e6ff;
+}
+.values__button {
+    background-color: #6415ff;
+    color: white;
+    font-size: 14px;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 500px;
+    transition: all 0.3s ease;
+    line-height: 1;
+    margin-top: 32px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    }
+.values__button:hover {
+    background-color: #5011cc;
+    color: #fff;
